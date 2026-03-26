@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+.figma {
+  width: 85vw;
+  height: 85vh;
+  margin: 0 auto;
+}
+div iframe {
+  margin: 80px auto;
+  display: block;
+}
+
+.fixed {
+  position: fixed;
+  right: 200px;
+  bottom: 200px;
+}
+
+.fixed:hover {
+  opacity: 0.8;
+}
+
+.fixed2 {
+  position: fixed;
+  right: 200px;
+  bottom: 200px;
+}
+
+.fixed2:hover {
+  opacity: 0.8;
+}
